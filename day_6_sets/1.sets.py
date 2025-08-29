@@ -16,3 +16,12 @@ print("set after removing an element ",fruits)
 
 # Membership test
 print("is apple in the set ? :", "apple" in fruits)
+
+# set operation
+A = {"1","2","3","4"}
+B = {"3","4","5","6"}
+
+print("Union", A | B)
+print("Intersection", A & B)
+print("Difference (A-B)", A - B)
+print("Symetric Differnce", A ^ B)
